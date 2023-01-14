@@ -1,0 +1,7 @@
+.navbar {
+  transition: all 2s;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #eee;
+}
