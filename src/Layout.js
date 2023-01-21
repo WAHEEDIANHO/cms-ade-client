@@ -163,7 +163,7 @@ function Layout({ api, email }) {
               </Link>
             </div>
           </div>
-          <Link to="#" className="nav_link" onClick={colorLink}>
+          <Link to="/logout" className="nav_link" onClick={colorLink}>
             <i className='bx bx-log-out nav_icon'></i>
             <span className="nav_name">SignOut</span>
           </Link>
