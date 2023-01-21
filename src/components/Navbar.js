@@ -5,20 +5,9 @@ import "../css/nav.css";
 import { Link } from "react-router-dom";
 
 function Navbar({ type }) {
-  useEffect(function () {
-    const nav = document.querySelector(".navbar");
-    window.addEventListener("scroll", function () {
-      if (window.scrollY > 50) {
-        nav.classList.add("border-bottom");
-        // const navbar_height = document.querySelector(".navbar").offsetHeight;
-        // document.body.style.paddingTop = navbar_height + "px";
-      } else {
-        nav.classList.remove("border-bottom");
-      }
-    });
-  });
 
   return (
+
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-3">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">

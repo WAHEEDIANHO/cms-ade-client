@@ -89,7 +89,7 @@ img {
 .passport-holder img {
   width: 100%;
   height: 100%;
-  object-fit: fil;
+  object-fit: fill;
 }
 
 .passport-holder input {
@@ -143,4 +143,8 @@ input, select {
 
 .err {
   border: 1px solid red !important;
+}
+
+.d-flex i {
+  color: rgba(252, 252, 252, 0.3);
 }
