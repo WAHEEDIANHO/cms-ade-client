@@ -28,7 +28,7 @@ function Preloader() {
       <h3 className="mt-3 text-white text-center">HC20200206048</h3>
 
       <h4 className="mt-3">Supervised By</h4>
-      <h3 className="text-white">Mr. Chris</h3>
+      <h3 className="text-white">MR. Nwaekpe O.C</h3>
     </div>
   );
 }

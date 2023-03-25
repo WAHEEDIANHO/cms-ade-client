@@ -6,6 +6,7 @@ import Login from "./views/Login";
 import Preloader from "./components/Preloader";
 import Layout from "./Layout";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Joblisting from "./views/Joblisting";
 
 // import "bootstrap/dist/css/bootstrap.css";
 // import "bootstrap/dist/js/bootstrap.js";
@@ -67,6 +68,10 @@ class App extends Component {
           <Route
             path="/"
             element={<Login setUser={this.setCurrentUser} api={api} />}
+          />
+          <Route
+            path="/job"
+            element={<Joblisting setUser={this.setCurrentUser} api={api} />}
           />
           <Route
             path="/logout"

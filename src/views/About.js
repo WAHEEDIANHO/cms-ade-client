@@ -23,7 +23,7 @@ function About() {
                 <p>COMPUTER SCIENCE</p>
 
                 <h6>Supervised By</h6>
-                <p>MR. CHRIS</p>
+                <p>MR. NWAEKPE O.C</p>
               </div>
             </div>
           </div>
